@@ -31,7 +31,7 @@ def calculate_score(true_list, predict_list):
         auc_list.append(auc)
         auprc_list.append(auprc)
     print('AUC mean: %.4f, variance: %.4f \n' % (np.mean(auc_list), np.std(auc_list)),
-          'AUPRC mean: %.4f, variance: %.4f \n' % (np.mean(auprc_list), np.std(auprc_list))
+          'AUPRC mean: %.4f, variance: %.4f \n' % (np.mean(auprc_list), np.std(auprc_list)),
           sep="")
 
     return np.mean(auc_list), np.mean(auprc_list), np.mean(accuracy_list), \
@@ -65,4 +65,5 @@ def models_eval(method_set_name, X_train_enc, X_test_enc, y_train, y_test, ix, l
     np.savetxt(args.fi_out + 'L' + str(loop_i) + '_M' + str(model_i) + '_yprob_' + method_set_name.lower() + str(ix) + '.csv', y_prob)
     calculate_score([y_test], [y_prob])
     return y_prob
+
 
