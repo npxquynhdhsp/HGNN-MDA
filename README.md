@@ -22,6 +22,6 @@ HyGNN-MDA: Hybrid Graph Neural Networks for MiRNA-Disease Association Prediction
     (- dataset: "HMDD v2.0" / "HMDD v3.2" / "INDE_TEST", respectively to HMDD v2.0, HMDD v3.2 and Independent dataset.
      - type_eval = "KFOLD"  / "DIS_K" / "DENO_MI", respectively to 5-fold-CV, Case studies and Denovo miRNAs.
      - nloop = ```number of repeat times```.
-     - Defaut: 5fold-CV in HMDD v2.0 dataset)
+     - Defaut: 5fold-CV in HMDD v2.0 dataset.
   * Run ```main.py```.
   
