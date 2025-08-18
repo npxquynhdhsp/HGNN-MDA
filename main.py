@@ -219,10 +219,10 @@ def main():
             print('RELIABLE NEGATIVE SAMPLE SELECTION')
             print('Model 1')
             X_train1, y_train, selected_indices1 = nega_sample_selection(X_train1T, y_trainT)
-            y_prob1 = models_eval(method_set[0] + '_ReliCB_tr_KoKNN', X_train1, X_test1, y_train, y_test, ix, loop_i, 1)
+            # Q QX
             print('Model 2')
             X_train2, y_train, selected_indices2 = nega_sample_selection(X_train2T, y_trainT)
-            y_prob2 = models_eval(method_set[0] + '_ReliCB_tr_KoKNN', X_train2, X_test2, y_train, y_test, ix, loop_i, 2)
+            # Q QX
 
             print('Reli CO KNN')
             print('Model 1')
