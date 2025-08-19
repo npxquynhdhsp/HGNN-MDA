@@ -3,7 +3,7 @@ from params import args
 
 from gen_featureQ import gen_feature
 
-from utils.dataprocessing_join_mo_lenh import * #Q QT,cmt
+from utils.dataprocessing_ko_join import * #Q QT,cmt
 
 from utils.dataprocessing2 import *
 from utils.utilQT import *
