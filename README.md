@@ -1,5 +1,5 @@
-# HyGNN-MDA
-HyGNN-MDA: Hybrid Graph Neural Networks for MiRNA-Disease Association Prediction
+# HGNNMDA
+HGNNMDA: Hybrid Graph Neural Networks for MiRNA-Disease Association Prediction
 
 ## Requirements
   * xgboost==2.0.3
