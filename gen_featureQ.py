@@ -3,8 +3,8 @@ from torch import nn
 from torch_geometric.nn import GCNConv, conv
 from params import args
 
-# from utils.dataprocessing_ko_join import gen_dataset #1 trong 2
-from utils.dataprocessing_join_mo_lenh import gen_dataset
+from utils.dataprocessing_ko_join import gen_dataset #1 trong 2
+# from utils.dataprocessing_join_mo_lenh import gen_dataset
 
 import torch.nn.functional as F
 import torch
